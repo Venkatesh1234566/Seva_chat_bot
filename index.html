@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gyan Book Store</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <h1>Gyan Book Store</h1> <center><img src="banner.png" alt="Gyan Book Store Banner" width="1000" height="500"class="banner"></center> 
+    <section class="books">
+        <article class="book-container">
+            <img src="Book1.jpg" alt="Book 1" class="book">
+            <span class="price">₹199</span> </article>
+      
+         <article class="book-container">
+            <img src="Book2.jpg" alt="Book 2" class="book">
+            <span class="price">₹149</span> </article>
+            <article class="book-container">
+                <img src="Book3.jpg" alt="Book 1" class="book">
+                <span class="price">₹199</span> </article>
+          
+              <article class="book-container">
+                <img src="Book4.jpg" alt="Book 2" class="book">
+                <span class="price">₹199</span> </article>
+                <article class="book-container">
+                    <img src="Book5.jpg" alt="Book 1" class="book">
+                    <span class="price">₹149</span> </article>
+              
+                  <article class="book-container">
+                    <img src="book6.jpg" alt="Book 2" class="book">
+                    <span class="price">₹199</span> </article>
+                    <article class="book-container">
+                        <img src="book7.jpg" alt="Book 1" class="book">
+                        <span class="price">₹199</span> </article>
+                  
+                      <article class="book-container">
+                        <img src="book8.jpg" alt="Book 2" class="book">
+                        <span class="price">₹199</span> </article>
+                        <article class="book-container">
+                            <img src="book9.jpg" alt="Book 1" class="book">
+                            <span class="price">₹199</span> </article>
+                      
+                          <article class="book-container">
+                            <img src="book10.jpg" alt="Book 2" class="book">
+                            <span class="price">₹179</span> </article>
+                            <article class="book-container">
+                                <img src="book11.jpg" alt="Book 1" class="book">
+                                <span class="price">₹199</span> </article>
+                          
+                              <article class="book-container">
+                                <img src="book12.jpg" alt="Book 2" class="book">
+                                <span class="price">₹199</span> </article>
+
+
+                               
+                          
+                              <!-- Chatbot icon/button -->
+    <div class="chatbot-icon" onclick="toggleChatbot()">
+      <img src="botlogo.png" alt="Chatbot Icon">
+  </div>
+
+  <!-- Dialogflow chatbot iframe -->
+  <iframe id="chatbot" width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/7f084a4c-1b66-48be-abe8-2a21d886d82e" style="display: none;"></iframe>
+
+  <script>
+      function toggleChatbot() {
+          var chatbotFrame = document.getElementById("chatbot");
+          if (chatbotFrame.style.display === "none") {
+              chatbotFrame.style.display = "block";
+          } else {
+              chatbotFrame.style.display = "none";
+          }
+      }
+  </script>
+</body>
+</html>
